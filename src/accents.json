@@ -1,0 +1,121 @@
+{
+  "british": {
+    "name": "English · Southern England",
+    "note": "Southern England",
+    "column": 0,
+    "group": "English",
+    "label": "English · Southern England"
+  },
+  "english_rp": {
+    "name": "English · Received Pronunciation",
+    "note": "Illustrative modern RP",
+    "column": 0,
+    "group": "English",
+    "label": "Received Pronunciation"
+  },
+  "english_london": {
+    "name": "English · London",
+    "note": "Illustrative contemporary London English",
+    "column": 0,
+    "group": "English",
+    "label": "London"
+  },
+  "english_cockney": {
+    "name": "English · Cockney",
+    "note": "Traditional East London",
+    "column": 0,
+    "group": "English",
+    "label": "Cockney"
+  },
+  "english_geordie": {
+    "name": "English · Geordie",
+    "note": "Illustrative Tyneside",
+    "column": 0,
+    "group": "English",
+    "label": "Geordie"
+  },
+  "english_scouse": {
+    "name": "English · Scouse",
+    "note": "Illustrative Liverpool",
+    "column": 0,
+    "group": "English",
+    "label": "Scouse"
+  },
+  "english_brummie": {
+    "name": "English · Brummie",
+    "note": "Illustrative Birmingham",
+    "column": 0,
+    "group": "English",
+    "label": "Brummie"
+  },
+  "english_west_country": {
+    "name": "English · West Country",
+    "note": "Illustrative rhotic South West England",
+    "column": 0,
+    "group": "English",
+    "label": "West Country"
+  },
+  "american": {
+    "name": "American",
+    "note": "General American",
+    "column": 1,
+    "group": "American",
+    "label": "American · General"
+  },
+  "american_new_york": {
+    "name": "American · New York",
+    "note": "Traditional New York City",
+    "column": 1,
+    "group": "American",
+    "label": "American · New York"
+  },
+  "american_boston": {
+    "name": "American · Boston",
+    "note": "Traditional Boston",
+    "column": 1,
+    "group": "American",
+    "label": "American · Boston"
+  },
+  "american_philadelphia": {
+    "name": "American · Philadelphia",
+    "note": "Illustrative traditional Philadelphia",
+    "column": 1,
+    "group": "American",
+    "label": "American · Philadelphia"
+  },
+  "american_texas": {
+    "name": "American · Texas",
+    "note": "Illustrative traditional Texas",
+    "column": 1,
+    "group": "American",
+    "label": "American · Texas"
+  },
+  "american_minnesota": {
+    "name": "American · Minnesota",
+    "note": "Illustrative Minnesota",
+    "column": 1,
+    "group": "American",
+    "label": "American · Minnesota"
+  },
+  "australian": {
+    "name": "Australian",
+    "note": "General Australian",
+    "column": 2,
+    "group": "Australian",
+    "label": "Australian · General"
+  },
+  "irish": {
+    "name": "Irish",
+    "note": "Illustrative Southern Irish English",
+    "column": 1,
+    "group": "Irish",
+    "label": "Irish · Southern Irish English"
+  },
+  "scottish": {
+    "name": "Scottish",
+    "note": "Illustrative Scottish Standard English",
+    "column": 1,
+    "group": "Scottish",
+    "label": "Scottish · Standard English"
+  }
+}

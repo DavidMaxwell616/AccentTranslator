@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f6f7fb" />
+  <title>Accent — A different way to say it</title>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+
+<body>
+  <header><a class="brand" href="./"><span class="brand-mark">a<span>ˈ</span></span>accent<span
+        class="brand-dot">.</span></a><span class="header-note">Same words. New perspective.</span></header>
+  <main>
+    <details class="about">
+      <summary>About Accent</summary>
+      <div class="about-content">
+        <section class="details">
+          <div class="detail-heading"><span class="mini-wave">≋</span>
+            <h2>Small shifts. A whole new sound.</h2>
+            <p>An accent changes how a word sounds, not what it means.</p>
+          </div>
+          <div class="detail-grid">
+            <article><span class="step">01</span>
+              <h3>Start with a word</h3>
+              <p>Type an English word, or choose from the Available words dropdown.</p>
+            </article>
+            <article><span class="step">02</span>
+              <h3>Find a new perspective</h3>
+              <p>Choose an accent and see its pronunciation change instantly.</p>
+            </article>
+            <article><span class="step">03</span>
+              <h3>Make it sound like you</h3>
+              <p>Use the phonetic guide to try it out. Capital letters mark the stressed syllable.</p>
+            </article>
+          </div>
+        </section>
+        <p class="footnote">A pronunciation explorer, not a rulebook. Accents vary by region and
+          speaker.<br>Illustrative dictionary with <span id="word-total"></span> words. Plain-English guides are
+          approximate.</p>
+        <details class="word-list">
+          <summary>Explore supported words</summary>
+          <div id="supported"></div>
+        </details>
+      </div>
+    </details>
+    <div class="eyebrow"><span></span> EXPLORE THE WAY WE SPEAK</div>
+    <h1>A different way to <em>say it.</em></h1>
+    <p class="intro">One word, a world of accents. Discover how pronunciation changes.</p>
+    <section class="translator" aria-label="Accent translator">
+      <div class="panel input-panel">
+        <div class="panel-heading"><span class="language"><span class="small-icon">Aa</span> English</span><span
+            class="muted">Your word</span></div>
+        <label class="sr-only" for="word">English word</label>
+        <textarea id="word" maxlength="50" rows="3" placeholder="Type a word…" spellcheck="false"
+          autocomplete="off"></textarea>
+        <div class="input-bottom"><button id="clear" class="text-button" type="button">Clear</button><span id="count">0
+            / 50</span></div>
+        <div class="panel-footer"><label for="available-word">Available words</label><select id="available-word">
+            <option value="" selected>Choose a word</option>
+          </select></div>
+      </div>
+      <div class="direction" aria-hidden="true">→</div>
+      <div class="panel output-panel">
+        <div class="panel-heading"><label class="sr-only" for="accent">Target accent</label><select id="accent">
+            <option value="">Loading accents?</option>
+          </select><span class="output-tag">PHONETIC</span></div>
+        <div class="result" aria-live="polite" aria-atomic="true">
+          <div id="result-label" class="result-label">BRITISH PRONUNCIATION</div>
+          <div id="ipa" class="ipa"></div>
+          <div id="respelling" class="respelling"></div>
+          <p id="message" class="result-message"></p>
+        </div>
+        <div class="output-actions"><button class="audio-button" disabled type="button"
+            title="Browser voice approximation; regional IPA may differ." aria-label="Listen to pronunciation"><svg
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M11 5 6 9H3v6h3l5 4V5Z" />
+              <path d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14" />
+            </svg><span>Listen</span></button><button id="copy" class="icon-button"
+            aria-label="Copy phonetic pronunciation" title="Copy pronunciation"><svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.6">
+              <rect x="8" y="8" width="12" height="13" rx="2" />
+              <path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3" />
+            </svg></button></div>
+        <div class="panel-footer result-footer"><span class="info-icon">i</span><span>IPA transcription + an
+            easy-to-read guide</span></div>
+      </div>
+    </section>
+    <div class="under-card"><span><span class="privacy-dot"></span> Phonetic lookup happens on your device</span><span
+        id="status" role="status">17 accents. A little more connection.</span></div>
+
+  </main>
+  <footer><span>accent. <span class="muted">Made for curious voices.</span></span></footer>
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.min.js"></script>
+  <script src="./src/dictionary.js"></script>
+  <script src="./src/main.js"></script>
+</body>
+
+</html>
